@@ -3,14 +3,16 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ExcelViewerComponent } from './excel-viewer/excel-viewer.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ExcelViewerComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,12 @@
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+  }
+
+  tr{
+      height: 30px;
+  }
+
+  td{
+      min-width: 120px;
+  }
